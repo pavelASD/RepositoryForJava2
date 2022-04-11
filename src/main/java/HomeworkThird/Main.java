@@ -27,6 +27,8 @@ public class Main {
             System.out.println(word);
         }
 
+
+
         for (int i=0; i<words.length; i++){
             if (mapWords.containsKey(words[i])){
                 mapWords.put(words[i], mapWords.get(words[i])+1);
